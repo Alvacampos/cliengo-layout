@@ -23,13 +23,7 @@ div {
 
 .board p {
   margin: 0;
-}
-
-.box-container {
-  margin-top: 30px;
-  display: inline-flex;
-  flex-wrap: wrap;
-  width: 80vw;
+  height: 30px;
 }
 
 .box {
@@ -45,6 +39,13 @@ div {
   -webkit-box-shadow: 0px 16px 46px -22px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 0px 16px 46px -22px rgba(0, 0, 0, 0.75);
   box-shadow: 0px 16px 46px -22px rgba(0, 0, 0, 0.75);
+}
+
+.box-container {
+  margin-top: 30px;
+  display: inline-flex;
+  flex-wrap: wrap;
+  width: 80vw;
 }
 
 .box .title {
@@ -138,7 +139,7 @@ input:checked + .slider:before {
 @media only screen and (max-width: 1100px) {
   .box {
     width: 300px;
-    height: 120px;
+    height: 150px;
   }
   hr {
     margin: 5px;
